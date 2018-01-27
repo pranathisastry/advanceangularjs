@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@font-face {
+  font-family: 'miny3';
+  src: url('Gargoyles.ttf');
+}
+@font-face {
+  font-family: 'miny';
+  src: url('Game of Thrones.ttf');
+}
+@font-face {
+font-family:'miny2';
+src: url('DARK11__.ttf');
+}
+body{
+  padding: 0px;
+  margin: 0px;
+  background-color:#4EB1BA;
+
+
+  background-image:url('images/bgimage.jpg');
+  background-image: no-repeat;
+  background-size: cover;
+
+}
+
+header{
+  font-family:"Times New Roman", Times, serif;
+  color: #FF0000 ;
+  text-align: center;
+  background-color: #000000;
+  padding-top:30px;
+  min-height: 70px;
+  border-bottom: #FFA500  4px solid;
+}
+
+#char{
+  font-family:"Times New Roman", Times, serif;
+  font-size: 3em;
+  color:#7EE59D;
+
+/*books styling*/
+div#mybook.container{
+  background-color: white;
+  color: #BC04F4;
+  text-align:left;
+  background:url('images/fav1.jpg');
+  text-align: center;
+  width:100%
+}
+div#mybook.container h1,h3,a{
+    text-align:center;
+}
+div#mybook.container h3{
+  color: DodgerBlue;
+}
+
+div#mybook.container li{
+  font-family:"Times New Roman", Times, serif;
+  font-size:1.2em;
+  color:black;
+  text-align: left;
+}
+div#mybook.container span{
+  font-family:"Times New Roman", Times, serif;
+  color:LightSeaGreen;
+  font-weight:200;
+  font-size: 1.3em;
+}
+
+
+div#mybook.container{
+  background-color: white;
+  color: #BC04F4;
+  text-align:left;
+  background:url('images/got2.jpg') no-repeat,url('images/fav.jpg');
+  width: 70%;
+
+
+}
+div#books.container li{
+  font-family:"Times New Roman", Times, serif;
+  font-size:1.2em;
+  color:black;
+}
+
+div#books.container span{
+  font-family:"Times New Roman", Times, serif;
+  color:green;
+  font-weight:200;
+  font-size: 1.3em;
+}
+div#books.container li#list{
+  font-family: cursive;
+  font-size:1.2em;
+  color:black;
+}
+
+/*houses styling*/
+div#myhouse.container{
+  background-color: white;
+  color: #BC04F4;
+  text-align:left;
+  background:url('images/fav3.jpg');
+  text-align: center;
+    width:100%;
+}
+
+div#myhouse.container h1{
+    text-align:center;
+    color:red;
+    font-family:"Times New Roman", Times, serif;
+
+}
+div#myhouse.container a{
+  text-align:center;
+}
+
+div#myhouse.container button#prev{
+  float:left;
+}
+div#myhouse.container button#next{
+  float:right;
+}
+div#housetem.container button#home{
+  float:center;
+}
+
+div#myhouse.container h3{
+  color:red;
+}
+
+div#myhouse.container li{
+  font-family:"Times New Roman", Times, serif;
+  font-size:1.2em;
+  color:black;
+  text-align: left;
+}
+
+div#myhouse.container h2#title{
+  color:#0B4AEA;
+  font-family: cursive;
+}
+
+
+
+div#myhouse.container span{
+  font-family:"Times New Roman", Times, serif;
+  color:LightSeaGreen;
+  font-weight:200;
+  font-size: 1.4em;
+}
+
+div#myhouse.container p{
+  float:none;
+  font-size:1.8em;
+  font-family:"Times New Roman", Times, serif;
+}
+
+div#house.container{
+  background-color: white;
+  color: #BC04F4;
+  text-align:left;
+  background:url('images/fav2.jpg');
+  width: 70%;
+  opacity: 0.9;
+
+}
+div#house.container li{
+  font-family: 'Satisfy', cursive;
+  font-size:1.2em;
+  color:black;
+}
+
+div#house.container span{
+  font-family: 'Roboto Condensed', sans-serif;
+  color:green;
+  font-weight:bolder;
+  font-size: 1.3em;
+}
+div#house.container li#list{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size:1.2em;
+  color:black;
+}
+
+/*character styling*/
+
+div#mychar.container{
+  background-color: white;
+  color: #BC04F4;
+  text-align:left;
+  background:url('images/fav3.jpg');
+  text-align: center;
+  width:70%;
+}
+
+div#mychar.container h1{
+    text-align:center;
+    color:red;
+   font-family: 'Satisfy', cursive;
+
+}
+div#mychar.container a{
+  text-align:center;
+}
+
+div#mychar.container button#prev{
+  float:left;
+}
+div#mychar.container button#next{
+  float:right;
+}
+div#mychar.container button#home{
+  float:center;
+}
+
+div#mychar.container h3{
+  color:red;
+}
+
+div#mychar.container li{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size:1.2em;
+  color:black;
+  text-align: left;
+}
+
+div#mychar.container h2#title{
+  color:#0B4AEA;
+   font-family: 'Satisfy', cursive;
+}
+
+
+
+div#mychar.container span{
+  font-family: 'Satisfy', cursive;
+  color:green;
+  font-weight:200;
+  font-size: 1.4em;
+}
+
+div#mychar.container p{
+  float:none;
+  font-size:1.8em;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+div#char.container{
+  background-color: white;
+  color: #BC04F4;
+  text-align:left;
+  background:url('images/fav4.jpg');
+  width: 70%;
+
+
+}
+div#char.container li{
+  font-family: cursive;
+  font-size:1.2em;
+  color:black;
+}
+
+div#char.container span{
+  font-family: 'Satisfy', cursive;
+  color:green;
+  font-weight:bolder;
+  font-size: 1.3em;
+}
+div#char.container li#list{
+  font-family: cursive;
+  font-size:1.2em;
+  color:black;
+}

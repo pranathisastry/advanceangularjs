@@ -1,0 +1,12 @@
+<h1><h1>
+  <h1 ng-if="char.name" id="char">"{{char.name}}"</h1>
+  <ul ng-if="char.name">
+    <li ng-if="char.name">GENDER:<span>{{char.gender}}</span></li>
+    <li ng-if="char.culture">CULTURE:<span>{{char.culture}}</span></li>
+    <li ng-if="!char.culture">CULTURE:<span>not available!!</span></li>
+    <li ng-if="char.born">BORN:<span>{{char.born}}</span></li>
+    <li ng-if="!char.born">BORN:<span>Date not available!!</span></li>
+    <li ng-if="char.playedBy[0]">ACTOR:<span ng-repeat="a in char.playedBy">{{a}}</span></li>
+    <li ng-if="!char.playedBy[0]">ACTOR:<span>Not available!!</span></li>
+    </ul>
+  <a class="btn btn-primary"  role="button" ng-href='#/Cdet/{{char.url.split("/").pop()}}' ng-if="char.name">click here for more details</a>
